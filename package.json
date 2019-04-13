@@ -1,0 +1,26 @@
+{
+  "name": "day1",
+  "version": "1.0.0",
+  "main": "testt.js",
+  "dependencies": {
+    "finalhandler": "^1.1.1",
+    "node": "^11.13.0",
+    "router": "^1.3.3",
+    "yargs": "^13.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NouranFayez/node-lab2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NouranFayez/node-lab2/issues"
+  },
+  "homepage": "https://github.com/NouranFayez/node-lab2#readme",
+  "description": ""
+}
