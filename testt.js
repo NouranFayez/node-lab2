@@ -16,9 +16,9 @@ router.get('/', function (req, res) {
     )
 })
 
-router.get('/Myfolder/:Mypic', function (req, res) {
+router.get('/folder/:index', function (req, res) {
     
-    fs.readFile(`./images/${req.params.Mypic}`, (err, data) => {
+    fs.readFile(`./images/${req.params.index}`, (err, data) => {
         if (err) throw err;
         res.end(data);
       });
